@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $webhookUrl = "https://app.crmsoftware.ae/api/message.php";
     $message = "Your OTP is $otp";
     $params = array(
-        'agent' => '971562559270',
+        'agent' => 'xxxxxxxxxxxx',
         'client' => $phoneNumber,
         'country' => 'AE',
         'message' => $message
